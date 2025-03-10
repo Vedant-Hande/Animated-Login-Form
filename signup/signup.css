@@ -30,7 +30,7 @@ body {
   align-items: center;
   border: 1px solid #ddd;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 15px;
 }
 
 h2 {
@@ -96,4 +96,14 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.3);
   font-weight: 500;
   color: #000;
+}
+
+.form-group i {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 290px;
+  top: 10px;
+  color: #ddd;
+  /* opacity: 0.8; */
+  transition: 0.5s;
 }

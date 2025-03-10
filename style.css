@@ -29,7 +29,7 @@ body {
   align-items: center;
   border: 1px solid #ddd;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 15px;
 }
 
 h2 {
@@ -65,6 +65,7 @@ h2 {
   position: absolute;
   top: 10px;
   left: 10px;
+  /* opacity: 0.7; */
   /* font-style: italic; */
   color: aliceblue;
   font-size: 1.2rem;
@@ -77,6 +78,7 @@ p {
   font-size: 1.1rem;
   color: aliceblue;
 }
+
 a {
   color: aliceblue;
   margin-left: 10px;
@@ -108,4 +110,14 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.3);
   font-weight: 500;
   color: #000;
+}
+
+.form-group i {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 290px;
+  top: 10px;
+  color: #ddd;
+  /* opacity: 0.8; */
+  transition: 0.5s;
 }
