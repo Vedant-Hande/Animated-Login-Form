@@ -2,9 +2,6 @@
 
 This project provides a set of user interface pages for user authentication, including login, signup (registration), and password reset functionalities.  It is designed with a focus on clean UI, user-friendly experience, and modern web standards.
 
-![Video Demo](https://animated-login-form-w9y4.vercel.app/ "A short demo ")
-
-
 ## Features
 
 *   **Login Page:**
